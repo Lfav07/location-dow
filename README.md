@@ -24,6 +24,7 @@ establishments = [
     {"name": "Burger King", "amenity_type": "fast_food"}, # Another example of a fast food restaurant
     {"name": "KFC", "amenity_type": "fast_food"},         # Another example of a fast food restaurant
     {"name": "Walmart", "amenity_type": "supermarket"}    # Example of a supermarket
+    {"name": "Burger King"} # Example of a establishment without amenity_type
 ]
 ```
 ### Reference for Amenity Types
@@ -34,3 +35,4 @@ https://wiki.openstreetmap.org/wiki/Template:Map_Features:amenity#:~:text=Amenit
 - `Run pip install requests on the terminal`
 - `Run download_establishment_locations_us.py`
 - `The JSON should be downloaded to the same location as the downloader.`
+- `If the script returns "No locations found for ..", Try Removing the amenity_type field from the establishments.`
