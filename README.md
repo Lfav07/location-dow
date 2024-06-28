@@ -29,3 +29,8 @@ establishments = [
 ### Reference for Amenity Types
 Amenity types can be found on the following OpenStreetMap Wiki:
 https://wiki.openstreetmap.org/wiki/Template:Map_Features:amenity#:~:text=Amenity%20Used%20to%20map%20facilities%20used%20by%20visitors,toilets%2C%20telephones%2C%20banks%2C%20pharmacies%2C%20cafes%2C%20parking%20and%20schools
+
+### Usage
+Run pip install requests on the terminal
+Run download_establishment_locations_us.py
+The JSON should be downloaded to the same location as the downloader.
