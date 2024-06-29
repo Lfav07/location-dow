@@ -20,10 +20,11 @@ The function saves the locations in a JSON file named after the establishment.
 
 ```python
 establishments = [
-    {"name": "McDonald's", "amenity_type": "fast_food"},  # Example of a fast food restaurant
+    {"name": "McDonald's", "amenity_type": "fast_food", "brand": "McDonald's"},  # Example of a fast food restaurant using brand tag
     {"name": "Burger King", "amenity_type": "fast_food"}, # Another example of a fast food restaurant
     {"name": "KFC", "amenity_type": "fast_food"},         # Another example of a fast food restaurant
     {"name": "Walmart", "amenity_type": "supermarket"}    # Example of a supermarket
+    {"name": "Burger King"} # Example of a establishment without amenity_type
 ]
 ```
 ### Reference for Amenity Types
@@ -34,3 +35,4 @@ https://wiki.openstreetmap.org/wiki/Template:Map_Features:amenity#:~:text=Amenit
 - `Run pip install requests on the terminal`
 - `Run download_establishment_locations_us.py`
 - `The JSON should be downloaded to the same location as the downloader.`
+- `If the script returns "No locations found for ..", Try Removing the amenity_type or brand field from the establishments.`
