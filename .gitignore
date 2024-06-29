@@ -1,1 +1,9 @@
-old.py
+# Ignore all files
+*
+
+# But not these files
+!download_establishment_locations
+!README.md
+
+# Unignore directories so the above files can be found
+!*/
