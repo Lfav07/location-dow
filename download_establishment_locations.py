@@ -52,7 +52,7 @@ def get_locations(establishment, amenity_type=None, country_code="US"):
 
 # List of establishments to get locations for
 establishments = [
-     {"name": "Walmart Supercenter",}  # Example of a fast food restaurant
+     {"name": "Burger King", "amenity_type": "fast_food"}  # Example of a fast food restaurant
 ] 
 
 """
